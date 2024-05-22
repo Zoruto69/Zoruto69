@@ -3,7 +3,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode((780, 560)) #changebel
+screen = pygame.display.set_mode((780, 560)) #you can change it
 
 clock = pygame.time.Clock()
 
@@ -14,6 +14,6 @@ while True:
             sys.exit()
 
     pygame.display.update()
-    clock.tick(60)
+    clock.tick(60) #this as well, but not recomended
 
 game.run()
